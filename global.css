@@ -1,0 +1,21 @@
+.tooltip {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: rgba(69,77,93,.9);
+    border-radius: .1rem;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    max-width: 320px;
+    padding: .2rem .4rem;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: pre;
+    z-index: 300;
+    /* visibility: hidden; */
+  }
+
+  .selected {
+    opacity: 1 !important;
+    stroke: rgb(243, 11, 11);
+    stroke-width: 1px;
+  }
